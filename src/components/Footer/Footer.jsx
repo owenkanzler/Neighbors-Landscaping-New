@@ -69,7 +69,10 @@ const Footer = () => {
             >
               <MdEmail /> neighbors.comp@gmail.com
             </a>
-            <a href="/" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/neighbors.companies"
+              aria-label="Facebook"
+            >
               <FaFacebookSquare /> Facebook
             </a>
           </div>
