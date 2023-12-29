@@ -1,0 +1,42 @@
+.contact-content h5 {
+  font-weight: 400;
+}
+
+.contact-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-content .input-box,
+.contact-content .textarea-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.input-box input,
+.textarea-box textarea,
+.input-box select {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact-content form .button {
+  background-color: #fff;
+  border: 1px solid #222222;
+  color: #222222;
+  transition: 0.3s;
+}
+
+.contact-content form .button:hover {
+  border: 1px solid #b02626;
+  color: #fff;
+  background-color: #b02626;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.services-hero {
+  padding: 15rem 0 8rem 0;
+  background: url("../../assets/hardhat.png") no-repeat;
+  background-size: cover;
+  background-position: 0 -200px;
+  color: #fff;
+}
+
+@media (max-width: 1280px) {
+  .services-hero {
+    background-position: center;
+  }
+}

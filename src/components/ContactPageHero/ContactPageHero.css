@@ -1,0 +1,13 @@
+.contact-hero {
+  padding: 15rem 0 8rem 0;
+  background: url("../../assets/skid.png") no-repeat;
+  background-size: cover;
+  background-position: 0 -100px;
+  color: #fff;
+}
+
+@media (max-width: 1280px) {
+  .contact-hero {
+    background-position: center;
+  }
+}
