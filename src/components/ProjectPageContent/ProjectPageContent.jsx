@@ -12,6 +12,8 @@ import project7 from "../../assets/project7.png";
 import project8 from "../../assets/project8.png";
 import project93 from "../../assets/project9-3.png";
 import project91 from "../../assets/project9-1.png";
+import project101 from "../../assets/project10-1.png";
+import project102 from "../../assets/project10-2.png";
 
 const ProjectPageContent = () => {
   const imageUrls = [
@@ -25,6 +27,8 @@ const ProjectPageContent = () => {
     project8,
     project93,
     project91,
+    project101,
+    project102,
   ];
 
   return (
@@ -36,43 +40,6 @@ const ProjectPageContent = () => {
         <span>ranging from landscaping renovations to new designs.</span>
       </h3>
       <Container>
-        {/* <div className="project-grid">
-          <img
-            src={project1}
-            alt="Project one"
-            loading="lazy"
-            width="500px"
-            height="500px"
-          />
-          <img
-            src={project2}
-            alt="Project two"
-            loading="lazy"
-            width="500px"
-            height="500px"
-          />
-          <img
-            src={project3}
-            alt="Project three"
-            loading="lazy"
-            width="500px"
-            height="500px"
-          />
-          <img
-            src={project4}
-            alt="Project four"
-            loading="lazy"
-            width="500px"
-            height="500px"
-          />
-          <img
-            src={project5}
-            alt="Project five"
-            loading="lazy"
-            width="500px"
-            height="500px"
-          />
-        </div> */}
         <div className="project-grid">
           {imageUrls.map((url, index) => (
             <img
