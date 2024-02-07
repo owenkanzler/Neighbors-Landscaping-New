@@ -9,16 +9,14 @@ const Hero = () => {
     <section className="hero">
       <Container>
         <div className="hero-content">
-          <div className="hero-content-top">
-            <span>100% Customer Satisfaction</span>
-            <div className="line"></div>
-          </div>
-          <h1>Neighbors Landscaping</h1>
-          <h2>
-            <span>Transforming dreams into reality</span>, we blend precision
-            and innovation to build exceptional structures that stand as
-            testaments to <span>quality and craftsmanship.</span>
-          </h2>
+          <h6>Neighbors Landscaping</h6>
+          <h1>
+            Transforming dreams into reality with precision and innovation
+          </h1>
+          <p>
+            we blend precision and innovation to build exceptional structures
+            that stand as testaments to quality and craftsmanship.
+          </p>
           <div className="btn-box">
             <Link className="button" to="/contact" aria-label="Get A Quote">
               Get A Quote

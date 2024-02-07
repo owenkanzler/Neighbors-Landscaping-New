@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../UI/Container/Container";
 import "./ServicesPageContent.css";
-import grass from "../../assets/grass.png";
 import landscaping from "../../assets/project1.png";
 import hardscaping from "../../assets/project3.png";
 import excavation from "../../assets/excavation.png";
