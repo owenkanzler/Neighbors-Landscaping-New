@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../UI/Container/Container";
 import "./ContactPageContent.css";
 
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import ContactForm from "./ContactForm/ContactForm";
@@ -36,6 +36,9 @@ const ContactPageContent = () => {
               >
                 <FaFacebookSquare /> Facebook
               </a>
+              <span>
+                <FaPhone /> 763-438-7187
+              </span>
             </div>
           </div>
           <div className="contact-grid-right">

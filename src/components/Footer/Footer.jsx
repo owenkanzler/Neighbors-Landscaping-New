@@ -3,7 +3,7 @@ import "./Footer.css";
 import Container from "../UI/Container/Container";
 import logo from "../../assets/logo-NB.png";
 
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaPhone } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
@@ -75,6 +75,9 @@ const Footer = () => {
             >
               <FaFacebookSquare /> Facebook
             </a>
+            <span>
+              <FaPhone /> 763-438-7187
+            </span>
           </div>
         </div>
       </Container>
